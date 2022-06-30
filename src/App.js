@@ -1,14 +1,18 @@
 
 import './App.css';
-import header from './components/header';
+import {Header1 , Header2} from './components/header';
+import Priyam from './components/header';
 
-
-
+const b =20;
 function App() {
+
   return (
     <div>
       Hello
-      <header />
+      <Header1 />
+      <Header2 />
+      <Priyam />
+      {b}
       <button>CLick</button>
     </div>
   );

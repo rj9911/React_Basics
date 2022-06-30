@@ -37,5 +37,37 @@ YOu need to return the single thing just like as single div is returned from her
 # Part 3 (Components and Styling)
 To import Components From another folder components.
 we hv first default export the header component and can be import in App file with any name.
+Now if default export is not done, then you hv to export different components from the same file using curly bracket as JS. {Header1 , Header 2} 
+
+We have understand how we export by default things and also without default exports.
+With default you can import App by any name.
+
+Without default we should import by using the same name in curly brackets used in both cases while importing and exporting. And Default Component should be one only.
+
+We can write Javascript anywhere but in any file,but we should not  Javascript in return section, there can write only the JSX not Javascript i.e only by using curly brackets just like i initialized the value const a anywhere not in the return section and the value of b is accessed using curly brackets in the return type.
+
+There are two types of Functions class based and function base by using snippet rfce and rc.
+
+Use Css Folder for every component separately to make my folder structure nicely looks.
+like for header component we use header.css
+
+By Pressing the CTRL and open the imported file link directly.
+
+We cn directly create the file by ctrl and clk that link & create file.
+All the css files are interlinked with each other, you need to import anyone css file in js folder. If changes done in div header.css done that will reflect to all the files div.
+
+We cn give styling directly in element tag using style={{}} inside this is an object.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
