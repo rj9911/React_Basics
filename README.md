@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+Part 1 ->
+In React you need to install extra package like react router dom i.e in case of library. but in case of framework you don't need to add extra packages.
+npx means for single time.
+understanded how to include any component in my app.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Part2 ->
+JSX -> JAVASCRIPT + HTMl
+difference is name of class is changed as classname bcoz there is keyword class in javascript and conflicted happens
+understanded the syntax of JSX same as HTML.
 
-## Available Scripts
+# Props & JSX
+To add multiple things like we hv to add component name Priyam many times to add Priyam mny times in function App.
+We need to add different name by passing only one component name in Function App. This can be done by using props.
+When You write curly brackets then JS starts 
+<div name = {"Priyam"} number = {23} ></div>
+this above priyam and number is javascript.
 
-In the project directory, you can run:
+props is like an object and passsed as parameter in function.with the properties defined and the variable javascript properties of the object is accessed by dot(.) operator.
+{props.name} <- {"priyam"} or {props.nameforclass} <- {"div1"}
+ 
+Another way to use props is directly pass the name of the element that ou put in the app component i.e Myappcomponent in case of ours.
 
-### `npm start`
+Destructuring by not using name props we defined directly by function Mycomponent({name ,nameforclass}) <- function Mycomponent(props). Destructuring is done by using curly brackets.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+We can pass the default value directly in parameters in function as given in income case.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Same as passing parameters in JS. Now doing familiar with JSX Syntax.
+Normal HTML going on, but to acess some variables we need javascript.
 
-### `npm test`
+# important -> 
+YOu need to return the single thing just like as single div is returned from here, you don't have return other any elements from here. Onlt one thing should be returned.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<></> -> We should use this tag(Empty Tag) Now Erro will be removed for retunring the multiple elements.You need to add elements tags in this empty tag.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
