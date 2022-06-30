@@ -9,6 +9,8 @@ difference is name of class is changed as classname bcoz there is keyword class 
 understanded the syntax of JSX same as HTML.
 
 # Props & JSX
+Here we hv seen components in one page only.
+
 To add multiple things like we hv to add component name Priyam many times to add Priyam mny times in function App.
 We need to add different name by passing only one component name in Function App. This can be done by using props.
 When You write curly brackets then JS starts 
@@ -31,5 +33,9 @@ Normal HTML going on, but to acess some variables we need javascript.
 YOu need to return the single thing just like as single div is returned from here, you don't have return other any elements from here. Onlt one thing should be returned.
 
 <></> -> We should use this tag(Empty Tag) Now Erro will be removed for retunring the multiple elements.You need to add elements tags in this empty tag.
+
+# Part 3 (Components and Styling)
+To import Components From another folder components.
+we hv first default export the header component and can be import in App file with any name.
 
 
