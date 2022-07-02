@@ -1,23 +1,34 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 
-let inputValue = 0;
-const changeHandler = (e) => {
-    inputValue = e.target.value;
-    console.log(inputValue)
-}
+const Home = () => {
+
+const [inputValue , setinputValue] = useState(0);
+
+useEffect(() => {
+  console.log("Run");
+},[])
+
+console.log(inputValue);
 
 const btnStyle = {
     padding : 20,
 }
 
-const Home = () => {
+const increment = () => {
+  setinputValue(inputValue + 1);
+}
+const decrement = () => {
+   setinputValue(inputValue - 1);
+}
   return (
     <div>
         <input style={{padding:20 , border: "1px solid red"}} type="text" placeholder='Enter valid values'
-        onClick={changeHandler}
+        value={inputValue}
+       
+        
         />
-        <button style={btnStyle}>+</button>
-        <button style={btnStyle}>-</button>
+        <button style={btnStyle} onClick={increment}>+</button>
+        <button style={btnStyle} onClick={decrement}>-</button>
     </div>
   )
 }

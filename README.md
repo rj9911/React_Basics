@@ -62,6 +62,19 @@ We cn give styling directly in element tag using style={{}} inside this is an ob
 If we save the component with jsx file instead of js file then html will be detected as default. else if saved in js file then manually change the extension from down side to react.
 Now we'll learn how onchange works in react using e.target.value & and passing e as parameter in arrow function. we return callback function in onchange event handler.
 
+We cann't directly change the counter value i.e increase or decrease. We hv to use the usestate in react.
+initialized inputvalue and setinputvalue is fcn to chnge inputvalue.& in usestate we put 0 inside that initialized as default her wehv given 0.
+readonly attribute given to not chnge the ip vlue directly from the box.
+
+Page gets render everytimes when value of inputValue gets changed in case of setCounter.
+
+incase when used let inputValue,react doesn't render increment and decrement component.
+
+**usestate and useeffect are hooks that used mostly**
+Useeffect is hook that shows callback function and renders the things on page firstly when page loads for the first time.
+Any hook should be defined in the component itself before return line.
+We can pass dependencies in the object given in usestate, callback funcn will be called when the value in object array gets changed.
+
 
 
 
