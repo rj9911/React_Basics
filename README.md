@@ -75,6 +75,10 @@ Useeffect is hook that shows callback function and renders the things on page fi
 Any hook should be defined in the component itself before return line.
 We can pass dependencies in the object given in usestate, callback funcn will be called when the value in object array gets changed.
 
+onchange event in input attribute gies setinputValue e.target.value shows real time data directly in console. That's why we use useState to show realtime data.
+
+
+
 
 
 

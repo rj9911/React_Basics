@@ -24,7 +24,11 @@ const decrement = () => {
     <div>
         <input style={{padding:20 , border: "1px solid red"}} type="text" placeholder='Enter valid values'
         value={inputValue}
-       
+        onChange={
+          (e) => {
+            setinputValue(e.target.value);
+          }
+        }
         
         />
         <button style={btnStyle} onClick={increment}>+</button>
