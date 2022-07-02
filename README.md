@@ -58,6 +58,12 @@ All the css files are interlinked with each other, you need to import anyone css
 
 We cn give styling directly in element tag using style={{}} inside this is an object.
 
+# Part 4 -> Forms and usestate in ReactJS
+If we save the component with jsx file instead of js file then html will be detected as default. else if saved in js file then manually change the extension from down side to react.
+Now we'll learn how onchange works in react using e.target.value & and passing e as parameter in arrow function. we return callback function in onchange event handler.
+
+
+
 
 
 

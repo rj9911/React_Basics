@@ -17,7 +17,7 @@ const Header2 = () => {
 }
 const Main = () => {
     return (
-        <div>Hello Anmol Priyam</div>
+        <h1>Hello Anmol Priyam</h1>
     );
 }
 
